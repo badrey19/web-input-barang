@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Input Data Barang</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<center>
+<body style="font-size: large; padding-left: 200px; padding-right: 200px ;">
+    <div style="background-color: white;" ><h2>Input Data Barang</h2>
+
+    <form method="post" action="simpan_barang.php">
+        <label for="nama_barang">Nama Barang:</label>
+        <input type="text" name="nama_barang" id="nama_barang" required>
+        <br><br>
+        <label for="harga_barang">Harga Barang:</label>
+        <input type="number" name="harga_barang" id="harga_barang" required>
+        <br><br>
+        <label for="harga_pasar">Harga Pasar:</label>
+        <input type="number" name="harga_pasar" id="harga_pasar" required>
+        <br><br>
+        <input type="submit" name="submit" value="Simpan">
+    </form></div>
+</center>
+</body>
+</html>
